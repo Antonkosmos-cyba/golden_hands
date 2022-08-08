@@ -14,14 +14,14 @@ nav {
         line-height: 2;
     }
     .submenu {
-        background: white;
-        border: 2px solid #003559;
+        background:  $color-primary-2;
+        border: 6px solid #003559;
         position: absolute;
         left: 0;
         visibility: hidden;
         opacity: 0;
         z-index: 5;
-        width: 150px;
+        width: 170px;
         transform: perspective(600px) rotateX(-90deg);
         transform-origin: 0% 0%;
         transition: .6s ease-in-out;
@@ -30,5 +30,8 @@ nav {
         visibility: visible;
         opacity: 1;
         transform: perspective(600px) rotateX(0deg);
+    }
+    li {
+        font-size: 22px;
     }
 }
