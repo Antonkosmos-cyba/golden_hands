@@ -14,24 +14,36 @@ nav {
         line-height: 2;
     }
     .submenu {
-        background:  $color-primary-2;
-        border: 6px solid #003559;
+        background:  rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        // border: 6px solid #003559;
+       
         position: absolute;
-        left: 0;
+        left: -170px;
+        margin-top: 10px;
         visibility: hidden;
         opacity: 0;
         z-index: 5;
-        width: 170px;
+        width: 370px;
         transform: perspective(600px) rotateX(-90deg);
         transform-origin: 0% 0%;
         transition: .6s ease-in-out;
     }
     .topmenu > li:hover .submenu {
+        
         visibility: visible;
         opacity: 1;
         transform: perspective(600px) rotateX(0deg);
     }
+
+
     li {
         font-size: 22px;
+        color: $color-primary-2;
+    
+        &:hover {
+            background-color: $color-secondary-a-1;
+            color: #fff;line-height: 2;
+        }
     }
 }
