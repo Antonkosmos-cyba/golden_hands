@@ -1,7 +1,7 @@
 header{
     margin: 20px;
     padding-right: 20px;
-    width: 100vw;
+    width: 100%;
 
 .logo {
     height: 80px;
@@ -18,13 +18,11 @@ header{
 }
 
 ul {
-    width: 600px;
     padding-right: 20px;
     font-family: "Caveat-Medium";
     font-size: 1.5em;
     line-height: 2.0;
     flex-wrap: nowrap;
-    // flex-shrink: 1;
 
     li{
         // width: 180px;

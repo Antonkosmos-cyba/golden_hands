@@ -1,5 +1,4 @@
 nav {
-    max-width: 100%;
     & a {
         display: block;
 
@@ -29,12 +28,17 @@ nav {
         transform: perspective(600px) rotateX(-90deg);
         transform-origin: 0% 0%;
         transition: .6s ease-in-out;
+
+        @media (max-width: 426px) {
+            margin-top: 20px;
+        }
     }
     .topmenu > li:hover .submenu {
         
         visibility: visible;
         opacity: 1;
         transform: perspective(600px) rotateX(0deg);
+        list-style-type: disc;
     }
 
 
