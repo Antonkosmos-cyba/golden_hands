@@ -12,6 +12,8 @@ nav {
     .submenu {
         font-size: 1em;
         line-height: 2;
+        text-align: start;
+    
     }
     .submenu {
         background:  rgba(255, 255, 255, 0.5);
@@ -20,11 +22,12 @@ nav {
         // text-align: start;
         position: absolute;
         right: 0px;
-        margin-top: 10px;
+        margin-top: 11px;
         visibility: hidden;
         opacity: 0;
         z-index: 5;
         width: 370px;
+
         transform: perspective(600px) rotateX(-90deg);
         transform-origin: 0% 0%;
         transition: .6s ease-in-out;
@@ -38,17 +41,20 @@ nav {
         visibility: visible;
         opacity: 1;
         transform: perspective(600px) rotateX(0deg);
-        list-style-type: disc;
+       
     }
 
 
-    li {
+    li{
         font-size: 22px;
         color: $color-primary-2;
     
         &:hover {
             background-color: $color-secondary-a-1;
-            color: #fff;line-height: 2;
+            color: #fff;
+            line-height: 2;
         }
     }
+ 
+
 }
