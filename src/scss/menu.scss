@@ -45,16 +45,17 @@ nav {
     }
 
 
-    li{
+    .submenu {
+         
         font-size: 22px;
         color: $color-primary-2;
     
-        &:hover {
-            background-color: $color-secondary-a-1;
-            color: #fff;
+        li:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: blue;
             line-height: 2;
         }
+        
     }
- 
 
 }
