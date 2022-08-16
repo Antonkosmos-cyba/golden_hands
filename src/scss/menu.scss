@@ -16,32 +16,28 @@ nav {
     
     }
     .submenu {
-        background:  rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
         // border: 6px solid #003559;
         // text-align: start;
         position: absolute;
         right: 0px;
-        margin-top: 9px;
+        margin-top: 5px;
         visibility: hidden;
         opacity: 0;
         z-index: 5;
         width: 370px;
 
-        transform: perspective(600px) rotateX(-90deg);
+        transform: perspective(400px) rotateX(-90deg);
         transform-origin: 0% 0%;
         transition: .6s ease-in-out;
-
-        @media (max-width: 426px) {
-            margin-top: 20px;
-        }
     }
     .topmenu > li:hover .submenu {
         
         visibility: visible;
         opacity: 1;
-        transform: perspective(600px) rotateX(0deg);
-       
+        transform: perspective(400px) rotateX(0deg);
+        transition: .6s ease-in-out;
     }
 
 
@@ -52,7 +48,7 @@ nav {
     
         li:hover {
             background-color: rgba(255, 255, 255, 0.2);
-            color: blue;
+            color: $color-secondary-a-2;
             line-height: 2;
         }
 
