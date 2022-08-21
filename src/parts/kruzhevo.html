@@ -2,59 +2,27 @@
 <html lang="ru">
 
 <head>
-   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lora:ital@1&family=Marck+Script&display=swap"
-      rel="stylesheet">
-
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-   <link rel="stylesheet" href="page.css">
-
-   <title>Рукоделие</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/awesome/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Главная</title>
 </head>
 
-<body class="body">
-   <header class="header">
-      <div>
-         <img class="am-nyam" src="foto/amnam1.jpg" height="120" width="120">
-      </div>
-      <div class="titl">
-         <h1>ЗОЛОТЫЕ РУЧКИ</h1>
-      </div>
+<body>
+    <div class="wrapper">
+        @@include('parts/header.html')
+        <main class="content">
+         <div class="div_content">
+            <p><img src="foto/klzo2.jpg" class="card scale ">
+               Цветок. Связан в ирландской технике. Цветок связан по МК Натальи Котельниковой, а листик к нему моего исполнения. Связан из ниток "YarnArt violet" 50g/282m, крючком № 1.0  Расход ниток 25г.</p>
+         </div>
+        </main>
 
-      <div id="hours">
-         <script language="JavaScript" type="text/javascript" src="time.js"></script>
-      </div>
-   </header>
-   <main class="main">
-      <nav class="nav_pag1">
-         <ul>
-            <li>
-               <a href="Amama.html">На Главную</a>
-            </li>
-            <br>
-            <li title='"Вязание- стиль Жизни_MargoLife"'><a
-                  href="https://www.youtube.com/channel/UCxHR9v2z7nDPQWGQuqMwZRw/featured">Youtube канал<br>Маргариты
-                  Герасимовой</a></li>
-            <br>
-            <li title='"Ирландское кружево крючком Котельникова Наталья"'><a
-                  href="https://www.youtube.com/channel/UCN7dDMxlcD_9O_SZCurspiw">Youtube канал<br>Натальи
-                  Котельниковой</a></li>
-            <br>
-            <li title='"Татьяна Беликова"'><a href="https://www.youtube.com/channel/UCWT1y5alM5mJtYIwi0LZV4A">Youtube
-                  канал<br>Татьяны Беликовой</a></li>
-         </ul>
-      </nav>
-      <div class="div_content">
-         <p><img src="foto/klzo2.jpg" class="card scale ">
-            Цветок. Связан в ирландской технике. Цветок связан по МК Натальи Котельниковой, а листик к нему моего исполнения. Связан из ниток "YarnArt violet" 50g/282m, крючком № 1.0  Расход ниток 25г.</p>
-      </div>
-
-   </main>
-   <footer class="footer">
-      Антон Цыба Inc.&#169; 2020-2021
-   </footer>
+        @@include('parts/footer.html')
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
