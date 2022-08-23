@@ -1,15 +1,24 @@
 .invite {
     display: flex;
     .foto {
-
+        max-width: 300px;
+        margin-right: 20px;
+        border: 1px solid #a3e579;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px #586c4c;
     }
 
     .div_o_mame {
-
-
+    padding: 10px;
+    font-size: 1.2em;
+    backdrop-filter: blur(10px);
+    text-indent: 20px;
+    p {
+        margin-bottom: 1em;
         .mam {
-
+        margin-bottom: 0em;
         }
+    }
     }
 }
 
