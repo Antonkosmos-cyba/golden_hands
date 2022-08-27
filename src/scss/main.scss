@@ -3,6 +3,8 @@
     font-size: 1.2em;
     backdrop-filter: blur(10px);
     text-indent: 20px;
+    margin-bottom: 100px;
+
     .foto {
         float: left;
         max-width: 300px;
@@ -16,13 +18,36 @@
         }
     }
     p {
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
-    .mam {
-        margin-bottom: 0;
-        }
     }
     
 .produkt {
+    width: 100%;
+    height: auto;
 
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-bottom: 60px;
+        padding: 25px 20px 70px;
+        margin-right: 80px;
+        margin-left: 20px;
+        box-shadow: 4px 6px 6px rgba(22, 105, 28, 0.4);
+        text-decoration: none;
+        backdrop-filter: blur(10px);
+ 
+        &-image{
+            width: 100%;
+            margin-bottom: 25px;
+
+    }
+        &-title{
+            margin-bottom: 10px;
+    }
+        &-text{
+            color: blue;
+    }
+}
 }
