@@ -25,15 +25,15 @@
 .produkt {
     width: 100%;
     height: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     .card{
-        display: flex;
-        flex-wrap: wrap;
-        width: 300px;
+        width: 500px;
         margin-bottom: 60px;
         padding: 25px 20px 70px;
-        margin-right: 80px;
-        margin-left: 20px;
+        // margin-right: 80px;
+        // margin-left: 20px;
         box-shadow: 4px 6px 6px rgba(22, 105, 28, 0.4);
         text-decoration: none;
         backdrop-filter: blur(10px);
