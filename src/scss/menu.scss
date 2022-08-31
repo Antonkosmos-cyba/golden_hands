@@ -34,11 +34,8 @@ nav {
         @media(max-width: 426px){
             width: 340px;
         }
-        @media (max-width: 325px) {
-            right: -20px;
-        }
-        @media (max-width: 375px) {
-            right: -90px;
+        @media (max-width: 376px) {
+            right: -30px;
         }
     }
     .topmenu > li:hover .submenu {
