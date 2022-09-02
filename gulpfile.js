@@ -18,7 +18,7 @@ const del = require('del')
 const sync = require('browser-sync').create()
 // import imagemin from 'gulp-imagemin';
 function html(){
-    return src('src/**.html')
+    return src('src/**/**.html')
     .pipe(include({
         prefix: '@@'
     }))
