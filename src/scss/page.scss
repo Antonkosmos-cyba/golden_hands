@@ -41,6 +41,20 @@
   }
   .scale:hover {
     transform: scale(1.5) 
-    translate(75%, 0%)
-    
+    translate(75%, 0%);
+
+    @media(max-width: 1025px) {
+      transform: scale(1.5) 
+      translate(75%, 0%)
+    }
+
+    @media(max-width: 770px) {
+      transform: scale(1.5) 
+      translate(75%, 0%)
+    }
+
+    @media(max-width: 430px) {
+      transform: scale(1.5) 
+      translate(75%, 0%)
+    }
   }
