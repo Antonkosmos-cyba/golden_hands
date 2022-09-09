@@ -42,9 +42,9 @@ function scss() {
 
 function js(){
     return src('src/js/index.js')
-    // .pipe(include({
-    //     prefix: '@@'
-    // }))
+    .pipe(include({
+        prefix: '@@'
+    }))
         .pipe(gulpBabel())
         .pipe(gulpUglify())
     .pipe(dest('dist/js/'))
