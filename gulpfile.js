@@ -41,13 +41,11 @@ function scss() {
 }
 
 function js(){
-    return src('src/js/index.js')
-    .pipe(include({
-        prefix: '@@'
-    }))
+    return src('src/js/**.js')
         .pipe(gulpBabel())
         .pipe(gulpUglify())
-    .pipe(dest('dist/js/'))
+        .pipe(concat('index.js'))
+        .pipe(dest('dist'))
     }
 
 function clear() {
