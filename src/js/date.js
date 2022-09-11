@@ -1,3 +1,4 @@
+
 var d = new Date();
 
 var day=new Array("Воскресенье","Понедельник","Вторник",
@@ -8,4 +9,3 @@ var month=new Array("января","февраля","марта","апреля",
 
 document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
 + " " + d.getFullYear() + " г.");
-
