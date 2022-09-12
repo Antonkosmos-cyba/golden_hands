@@ -1,5 +1,12 @@
 .date {
     height: 50px;
+    font-size: 1em;
+    font-style: italic;
+    padding-left: 20px;
+
+    @media (max-width: 1025px) {
+        padding-left: 10px;
+    }
 }
 .div-o-mame {
     padding: 10px;
