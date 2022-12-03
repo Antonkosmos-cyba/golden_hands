@@ -53,7 +53,7 @@ function clear() {
 }
 
 function images() {
-    return src('src/images/**/*.{jpg,png,jpeg}',
+    return src('src/images/**/*.{jpg,png,jpeg,ico}',
     '!src/images/icon/*'
     )
 
